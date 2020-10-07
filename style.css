@@ -1,0 +1,46 @@
+.header {
+    height: 60rem;
+    background-image: url("1792303.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.header .container {
+    height: 8%;
+}
+
+#home img {
+    height: 100%;
+    float: left;
+    padding: 0.3rem 0;
+}
+
+.menu-wrapper {
+    float: right;
+    height: 100%;
+}
+
+.menu-wrapper li a {
+    padding: 10px 0;
+    padding:  1.5rem;
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+.menu-wrapper .nav-link:hover {
+    color: #117af1;
+}
+
+.welcome .join a {
+    position: fixed;
+    color: #fcfcfc;
+    bottom: 40%;
+    left: 48%;
+    text-decoration: none;
+    height: 2rem;
+    width: 6rem;
+    text-align: center;
+    background-color: blue;
+
+}
