@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
 .header {
     height: 60rem;
     background-image: url("1792303.jpg");
@@ -6,8 +11,13 @@
     background-repeat: no-repeat;
 }
 
-.header .container {
+.menu-header {
+    position: fixed;
+    background-color: #323636;
+    width: 100%;
     height: 8%;
+    padding: 0 2rem;
+    z-index: 999;
 }
 
 #home img {
@@ -33,14 +43,120 @@
 }
 
 .welcome .join a {
-    position: fixed;
-    color: #fcfcfc;
+    position: absolute;
+    color: #fafafa;
     bottom: 40%;
-    left: 48%;
+    left: 44%;
     text-decoration: none;
-    height: 2rem;
-    width: 6rem;
+    height: 3.5rem;
+    width: 15rem;
+    font-size: 16px;
+    text-transform: uppercase;
     text-align: center;
-    background-color: blue;
+    background-color: #2494f0;
+    padding: 1rem 5rem;
+    border-radius: 25px;
+}
 
+.welcome a:hover {
+    background-color: #fafafa;
+    color: #0c0d0d;
+    /* animation-delay: 1s; */
+}
+
+.view-more {
+    height: 38rem;
+}
+
+.view-more .mastering {
+    position: relative;
+    background-image: url("rec2-offer-1.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.view-more .mixing {
+    position: relative;
+    background-image: url("rec2-offer-2.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.view-more .content-view {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color: #fafafa;
+    font-size: 50px;
+}
+
+.view-more .link-view a {
+    position: absolute;
+    width: 10rem;
+    text-align: center;
+    bottom: 10%;
+    right: 10%;
+    color: #fafafa;
+    font-size: 15px;
+    background-color: #2494f0;
+    padding: 1rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.view-more a:hover {
+    background-color:#fafafa;
+    color: #0c0d0d;
+}
+
+.history {
+    height: 40rem;
+}
+
+.history .img-1 {
+    background-image: url("DSCF8510_x700.jpg");
+    background-size: cover;
+    background-position: center center; 
+}
+
+.history .img-2 {
+    background-image: url("0d2bba4bb5591fd59a2e160db63f1e2e.jpg");
+    background-size: cover;
+    background-position: center center; 
+}
+
+.history .img-3 {
+    background-image: url("screen-1.jpg");
+    background-size: cover;
+    background-position: center center; 
+}
+
+.listing {
+    height: 30rem;
+}
+
+.listing .container {
+    padding-top: 3rem;
+}
+
+.listing .title {
+    width: 100%;
+    text-align: center;
+}
+
+.listing .more-song a{
+    text-decoration: none;
+}
+
+.footer {
+    height: 30rem;
+    background-color: #323636;
+}
+
+.footer .container h3 {
+    color: #fcfcfc;
+}
+
+.end {
+    bottom: 5%;
 }
